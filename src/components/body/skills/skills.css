@@ -1,0 +1,35 @@
+.skills {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.skills-container {
+  margin-top: 50px;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0px;
+}
+.skills-section-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+.skills-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+
+  margin-right: 100px;
+}
+@media only screen and (max-width: 720px) {
+  .skills-list {
+    max-width: 100%;
+    justify-content: center;
+  }
+  .skills-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}

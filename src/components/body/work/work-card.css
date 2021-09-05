@@ -1,0 +1,36 @@
+.work-card {
+  padding: 8px;
+  width: 45%;
+  margin-top: 19px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.work-info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 19px;
+}
+.work-logo {
+  height: 100px;
+}
+.work-dates {
+  color: gray;
+}
+.work-desc {
+  text-align: left;
+
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80%;
+}
+@media only screen and (max-width: 720px) {
+  .work-card {
+    width: 100%;
+  }
+}

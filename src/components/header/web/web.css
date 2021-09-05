@@ -1,0 +1,23 @@
+.web {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.web-option {
+  margin-right: 12px;
+  font-weight: 400;
+  font-size: 20px;
+  background-color: darkslategrey;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+.web-option a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.web-option:last-child {
+  margin-right: 0px;
+}
